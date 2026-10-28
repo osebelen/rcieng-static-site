@@ -1,0 +1,5 @@
+/* Tribute card on the Team page: grayscale photo and a quiet "In loving memory" line. */
+.elementor-element-e33763a img{filter:grayscale(1)}
+.in-memory{margin:6px 0 0;text-align:center;font-style:italic;letter-spacing:.04em;color:#555}
+.elementor-element-1c87d34{width:100%}
+.elementor-element-1c87d34 p{text-align:center}
