@@ -1,0 +1,14 @@
+.rci-form{display:grid;gap:16px;font-family:inherit;max-width:100%;color:#222}
+.rci-form>*,.rci-form .row>*{min-width:0}
+.rci-form .row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.rci-form label{display:block;color:#222;font-size:15px;font-weight:600;margin-bottom:6px}
+.rci-form input,.rci-form select,.rci-form textarea{width:100%;box-sizing:border-box;padding:12px;border:1px solid #b9c4be;border-radius:4px;font:inherit;background:#fff}
+.rci-form textarea{min-height:140px}
+.rci-form button{justify-self:start;padding:12px 32px;border:0;border-radius:4px;background:#1e7a3c;color:#fff;font:inherit;font-weight:600;cursor:pointer}
+.rci-form button:disabled{opacity:.6;cursor:wait}
+.rci-form .hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.rci-form-status{padding:14px 18px;border-radius:4px;font-size:17px}
+.rci-form-status:empty{display:none}
+.rci-form-status.ok{background:#e6f4ea;color:#14532d}
+.rci-form-status.err{background:#fdecea;color:#7f1d1d}
+@media(max-width:600px){.rci-form .row{grid-template-columns:1fr}}
